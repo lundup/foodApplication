@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.showcase{
+
+    background-image: linear-gradient(rgba(10, 10, 10, 0.5),rgb(10, 10, 10)) , url(./images/bgimage.jpg);
+    background-repeat: no-repeat;
+    
+   height: 100vh;
+   width: 100vw;
+   background-size: cover;
+ 
+}
+.showcase-content{
+    position: absolute;
+    margin-left: 18rem;
+    margin-top:16rem;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.showcase-btn-book-now{
+background-color: #ff6b35;
+    font-size: 28px;
+    width: 150px;
+    height: 67px;
+    border-radius: 33px;
+    border: none;
+    color: white;
+}
+#show-more{
+    font-size: 28px;
+    width: 160px;
+    height: 67px;
+    border-radius: 33px;
+
+
+    border:1px #ff6b35 solid;
+    color: #ff6b35;
+    background-color: transparent;
+}
+.showcase-btn{
+    padding:2px;
+    transition: transform 0.3s;
+    margin:9px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#show-more:hover{
+background-color: #ff6b35;
+color: white;
+}
+
+.showcase-btn:hover{
+    transform: scale(1.2);
+}
+
+.awesome-feature-icon{
+
+    font-size:4rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    border: 1px solid;
+    height: 19rem;
+    width: 19rem;
+}
+
+.nav-ul{
+    display: flex;
+    text-decoration: none;
+    height: 57px
+    
+}
+
+.nav-ul li{
+    display: flex;
+    text-decoration: none;
+}
+
+
+.nav-links{
+    text-decoration: none;
+    color: white;
+}
+

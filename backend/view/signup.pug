@@ -1,0 +1,26 @@
+extends base.pug
+block content
+ form
+  .entry
+    .entry-text
+      | Name
+    input#signupName(type='name' name='name' required='')
+  .entry
+    .entry-text
+      | Email
+    input#signupEmail(type='email' name='email' required='')
+   
+  .entry
+    .entry-text
+      | Password
+    input#signupPassword(type='password' name='password' required='')
+  .entry
+    .entry-text
+      | ConfirmPassword
+    input#signupConfirmPassword(type='password' name='confirmPassword' required='')
+  #signupBtn.btn-parent
+    a.btn.btn-full.form-button(href='#') SIGNUP
+  span#message
+   |
+append scripts
+ script(src="./js/signup.js")

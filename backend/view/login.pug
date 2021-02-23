@@ -1,0 +1,19 @@
+extends base.pug
+block content
+ form
+  .entry
+    .entry-text
+      | Email
+    input#loginEmail(type='email' name='email' required='')
+  
+    .entry-text
+      | Password
+    input#loginPassword(type='password' name='password' required='')
+  #loginBtn.btn-parent
+    a.btn.btn-full.form-button(href='#') LOGIN
+  .Btn.btn-parent
+  a#forgetPw.btn.btn-full.form-button(href='#') Forget Password
+  span#message
+      | 
+append scripts
+ script(src="./js/login.js")
